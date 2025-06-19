@@ -66,10 +66,9 @@ const Navbar = () => {
           }`}
         >
           <div className="flex justify-between items-center mb-6">
-            <span className="text-lg font-bold">Menu</span>
+            <span className="text-lg font-bold"></span>
             <button onClick={() => setIsOpen(false)}>
               <X size={24} />
-              <p className='text-white text-3xl'>Close</p>
             </button>
           </div>
 
