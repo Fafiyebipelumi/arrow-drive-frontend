@@ -13,7 +13,7 @@ const Homepage = () => {
     <section className="relative h-screen w-full bg-black text-white overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/hero.jpg"
+        src="/hero-image.jpg"
         alt="Driving background"
         layout="fill"
         objectFit="cover"
