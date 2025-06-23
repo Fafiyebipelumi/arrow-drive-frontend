@@ -46,7 +46,7 @@ export default function Aboutpage() {
           <div className="hidden md:w-1/2 mt-10 md:mt-0 md:grid grid-cols-1 sm:grid-cols-3 gap-4">
             <div className="rounded-lg overflow-hidden">
               <Image
-                src="/about1.jpg"
+                src="/woman-with-map.jpg"
                 alt="Woman reading map"
                 width={300}
                 height={500}
@@ -55,8 +55,8 @@ export default function Aboutpage() {
             </div>
             <div className="rounded-lg overflow-hidden">
               <Image
-                src="/about1.jpg"
-                alt="Car navigation system"
+                src="/rainy-windscreen.jpg"
+                alt="Wet windscreen"
                 width={300}
                 height={200}
                 className="object-cover w-full h-full"
@@ -64,7 +64,7 @@ export default function Aboutpage() {
             </div>
             <div className="rounded-lg overflow-hidden">
               <Image
-                src="/about1.jpg"
+                src="/woman-with-map.jpg"
                 alt="Driving in rain"
                 width={300}
                 height={200}
