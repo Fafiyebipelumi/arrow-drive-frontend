@@ -22,8 +22,8 @@ const HowItWorks = () => {
           </h2>
         </div>
 
-        {/* <div className="md:flex items-center justify-center sm:flex-col md:gap-8"> */}
-        <div className="mt-10 md:mt-0 md:grid grid-cols-1 sm:grid-cols-3 md:gap-4">
+        {/* <div className="md:flex items-center justify-center sm:flex-col md:gap-8" mt-10 md:mt-0 md:grid grid-cols-1 sm:grid-cols-3 md:gap-4> */}
+        <div className="md:flex-row flex flex-col md:items-center md:justify-around gap-8">
           <DestinationCard
             imageSrc="/location-on-phone.jpg" 
             imageAlt="Phone" 
