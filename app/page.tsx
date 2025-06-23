@@ -7,7 +7,7 @@ import HowItWorks from "@/components/How-it-works/How-it-works";
 
 export default function Home() {
   return (
-    <div>
+    <div className="scroll-smooth">
       <Homepage />
       <Aboutpage />
       <Features />

@@ -10,7 +10,7 @@ import Hero from '../Hero';
 const Homepage = () => {
 
   return (
-    <section className="relative h-screen w-full bg-black text-white overflow-hidden">
+    <section className="relative h-screen w-full bg-black text-white overflow-hidden scroll-smooth">
       {/* Background Image */}
       <Image
         src="/hero-image.jpg"

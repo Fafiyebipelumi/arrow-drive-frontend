@@ -15,13 +15,13 @@ const Navbar = () => {
     
       const navLinks = [
         { name: 'Home', href: '/' },
-        { name: 'About Us', href: '/about' },
-        { name: 'Features', href: '/features' },
-        { name: 'How It Works', href: '/how-it-works' },
+        { name: 'About Us', href: '#about' },
+        { name: 'Features', href: '#features' },
+        { name: 'How It Works', href: '#how-it-works' },
       ];
 
   return (
-      <nav className="absolute top-0 left-0 w-full z-30 flex justify-between items-center px-6 md:px-16 py-4 text-white">
+      <nav className="absolute top-0 left-0 w-full z-30 flex justify-between items-center px-6 md:px-16 py-4 text-white scroll-smooth">
           {/* ================= NAVBAR ================= */}
         {/* Logo */}
         <Link href="/" className="font-semibold text-lg px-3 py-1">
@@ -54,7 +54,7 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Menu Icon */}
-        <button onClick={() => setIsOpen(true)} className="md:hidden z-50">
+        <button onClick={() => setIsOpen(true)} className="md:hidden z-50 cursor-pointer">
           <Menu size={28} />
           {/* <p className='text-white text-3xl'>MENU</p> */}
         </button>

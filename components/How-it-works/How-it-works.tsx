@@ -5,7 +5,7 @@ import DestinationCard from "../DestinationCard";
 const HowItWorks = () => {
   return (
     <>
-      <section className="bg-white py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
+      <section id="how-it-works" className="bg-white py-8 sm:py-12 md:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           {/* How it works label */}
           <div className="text-center mb-6 sm:mb-8 md:mb-10">

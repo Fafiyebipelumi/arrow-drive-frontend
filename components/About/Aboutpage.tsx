@@ -5,7 +5,7 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 
 export default function Aboutpage() {
   return (
-    <section className="bg-[#eef5f0] py-16 px-4 md:px-20 text-gray-800">
+    <section id='about' className="bg-[#eef5f0] py-16 px-4 md:px-20 text-gray-800 scroll-smooth">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-10">
           <span className="px-4 py-1 text-xs font-medium rounded-full bg-white border border-gray-300 text-black">
